@@ -14,7 +14,7 @@ public class SolutionTest {
 
     @Test
     public void kthGrammarTest2() {
-        int n = 1;
+        int n = 2;
         int k = 1;
         int expected = 0;
         int actual = new Solution().kthGrammar(n, k);
@@ -33,8 +33,8 @@ public class SolutionTest {
     }
     @Test
     public void kthGrammarTest4() {
-        int n = 11;
-        int k = 5;
+        int n = 5;
+        int k = 11;
         int expected = 0;
         int actual = new Solution().kthGrammar(n, k);
 
